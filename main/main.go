@@ -5,7 +5,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 )
-
+//tsting
 func main() {
 	mapping.CreateUrlMappings()
 	// Listen and server on 0.0.0.0:8080
