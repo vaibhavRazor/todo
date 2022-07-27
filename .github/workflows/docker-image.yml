@@ -25,7 +25,7 @@ jobs:
           # Additional arguments for the sonarcloud scanner
           args:             
             -Dsonar.projectKey=testing_1234
-            -Dsonar.organization=vaibhavRazor
+            -Dsonar.organization=vaibhavrazor
             -X
       - name: code checkout
         uses: actions/checkout@v3
