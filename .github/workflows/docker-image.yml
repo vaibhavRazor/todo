@@ -26,6 +26,7 @@ jobs:
           args:             
             -Dsonar.projectKey=testing_1234
             -Dsonar.organization=vaibhavRazor
+            -X
       - name: code checkout
         uses: actions/checkout@v3
       - name: Build the Docker image
