@@ -21,10 +21,7 @@ func CreateUrlMappings() {
 	// v1 of the API
 	{
 		Router.GET("/task/list", repo.ListTasks)
-
 		Router.POST("/task/add", repo.AddTask)
-		Router.POST("/task/update", controllers.UpdateTask)
-		Router.PUT("/task/delete", controllers.DeleteTask)
 		Router.GET("/metrics", prometheusHandler())
 
 	}
