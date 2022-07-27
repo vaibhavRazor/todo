@@ -55,14 +55,6 @@ func (repo *Repo) AddTask(c *gin.Context) {
 	c.JSON(200, msg)
 }
 
-func UpdateTask(c *gin.Context) {
-
-}
-
-func DeleteTask(c *gin.Context) {
-
-}
-
 var counter_new = promauto.NewCounter(prometheus.CounterOpts{
 	Namespace: "default",
 	Name:      "leagues_request_counter",
