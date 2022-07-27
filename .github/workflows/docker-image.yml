@@ -27,7 +27,7 @@ jobs:
             -Dsonar.projectKey=testing_1234
             -Dsonar.organization=vaibhavRazor
       - name: code checkout
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Build the Docker image
         run: docker build . --file Dockerfile -t vaibhavnsit87/todo:$(date +%s)
       -
