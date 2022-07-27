@@ -26,6 +26,7 @@ jobs:
           args:             
             -Dsonar.projectKey=testing_1234
             -Dsonar.organization=vaibhavrazor
+            -Dsonar.working.directory=/tmp/sonar
             -X
       - name: permission
         run: chmod -R 777 /home/runner/work/todo  
