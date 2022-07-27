@@ -11,6 +11,6 @@ func main() {
 	// Listen and server on 0.0.0.0:8080
 	//skjhjk0098933h97897
 
-	mapping.Router.Run(":8080")
+mapping.Router.Run(":8080")
 
 }
